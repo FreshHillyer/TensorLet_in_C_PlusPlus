@@ -11,6 +11,15 @@ Users need to install the following packages and add them to specific paths acco
 
 We tested our code on Ubuntu Linux.
 
+Installation Wizard on Ubuntu 14.04：
+MKL install for ubuntu： https://blog.csdn.net/huang826336127/article/details/78759506#commentBox
+Basic matrix library,Armadillo：https://blog.csdn.net/fiona_ffflll/article/details/40661535
+FFTW3:sudo apt-get install fftw3 fftw3-dev pkg-config
+openBLAS:https://blog.csdn.net/sinat_24143931/article/details/78692622
+
+tips：make sure u have the latest version of apt-get.
+      if u cant open MKL install_UI.sh,use install.sh as a replacement 
+      ftw3 version can not be viewed, view fftw2 exists is ok
 
 ## CP decomposition  
 CP decomposition is realized in cp_als.cpp file.   
